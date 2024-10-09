@@ -1,4 +1,4 @@
-# psudorandom-number-generation
+#   Pseudorandom-Number-Generation
 # Cryptography---19CS412-classical-techqniques
 Pseudo Rndom number generation with random values
 
@@ -25,5 +25,37 @@ Repeat the random number generation for the specified count.
 Print each generated random number.
 ### Step 9:
 End the program.
+
+## PROGRAM:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main() 
+{
+ int count, min, max;
+ printf("Enter the number of random numbers to generate: ");
+ scanf("%d", &count);
+ printf("Enter the minimum value: ");
+ scanf("%d", &min);
+ printf("Enter the maximum value: ");
+ scanf("%d", &max);
+ srand(time(NULL));
+ printf("Pseudorandom numbers:\n");
+ for(int i = 0; i < count; i++) 
+ {
+ int random_number = (rand() % (max - min + 1)) + min;
+ printf("%d\n", random_number);
+ }
+ return 0;
+}
+```
+
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/db242d6d-e0fd-44f9-9f97-180fe1ad2660)
+
+## RESULT:
+The program is executed successfully.
+
 
 
