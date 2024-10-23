@@ -28,6 +28,10 @@ End the program.
 
 ## PROGRAM:
 ```
+Developed By:Sushiendar M
+Registration Number:212223040217
+```
+```
 #include <stdio.h>
 //Constants for LCG
 #define A 1664525
@@ -58,14 +62,10 @@ int main() {
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/4d2ffc12-ac20-42dd-a8a2-9881813d970b)
 
-
 ## RESULT:
 The program is executed successfully.
 
-```
-Developed By:Sushiendar M
-Registration Number:212223040217
-```
+
 
 
 
